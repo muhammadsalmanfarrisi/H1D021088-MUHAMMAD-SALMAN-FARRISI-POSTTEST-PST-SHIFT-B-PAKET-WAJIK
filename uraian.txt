@@ -1,0 +1,24 @@
+POST TEST
+
+1. Motor servo bekerja dengan mengontrol posisi rotornya melalui perubahan arus listrik yang diterima. Motor ini akan berputar sesuai dengan instruksi dari kontroler dan berhenti saat posisi rotor mencapai titik yang ditentukan oleh instruksi tersebut. Oleh karena itu, motor servo sangat efektif untuk mengatur posisi suatu mekanisme dengan presisi tinggi.
+cara praktek di arduino, yang pertama, Pasangkan/tempelkan Arduino nuno ke bredboard. kedua, Pasangkan kabel jumper ke servo dan sensor jarak. ketiga,Pasangkan 5v pada Arduino nuno ke positif pada breadboard, keempat, Pasangkan gnd pada Arduino nuno ke negative pada breadboard, kelima, Pasangkan servo ( kabel merah ke positif, kabel coklat ke negative, dan kabel kuning ke d4 pada arduino nuno)
+
+2. cara kerjanya yaitu Pertama, sambungkan pin LCD ke Arduino Nano. Hubungkan pin RS LCD ke pin digital 12 pada Arduino Nano, pin E ke pin digital 11, dan pin data D4 hingga D7 masing-masing ke pin digital 5, 4, 3, dan 2. Sambungkan pin VSS dan RW LCD ke GND, serta pin VDD ke 5V. Untuk mengatur kontras LCD, sambungkan pin V0 ke potensiometer 10k, dengan ujung-ujung potensiometer terhubung ke 5V dan GND. Setelah semua koneksi selesai, inisialisasi LCD dapat dilakukan dengan menggunakan pustaka LiquidCrystal di Arduino IDE. Pustaka ini memudahkan Anda dalam mengirim perintah dan data ke LCD.
+3. contoh penggunaan
+- pada palang pintu parkir yang ada di mall
+- tempat sampah otomatis (menggunakan sensor jarak)
+- deteksi asap
+- keamanan pintu menggunkaan sidik jari
+- lampu jalan (ketika malam nyala, ketika siang mati)
+
+4. kelompok saya Akan membuat projek dengann judul Implementasi Sistem Keamanan Pintu Berbasis RFID dengan E-KTP.
+jadi kita akan membuat sebuah pintu yang memiliki sistem keamanan berbasis rfid dengan e-ktp, jadi nanti pintu yang dikunci menggunakan kunci selenoid akan terbuka ketika kita menempelkan e-ktp ke RFID Reader
+alat dan bahannya
+- RFID Reader
+- Arduino Uno
+- Relay
+- kunci selenoid
+- lcd 16kali2
+- kabel jumper
+-12v adaptor
+- e-ktp
